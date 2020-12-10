@@ -1,0 +1,46 @@
+header{
+    width: 100%;
+    background: url(../img/bg.jpg) #281a0c;
+    background-size: cover;
+    background-attachment: fixed;
+    .contenedor{
+        height: 400px;
+        overflow: hidden;
+        .menu{
+            width: 100%;
+            text-align: right;
+            a{
+                color: #fff;
+                font-size: 20px;
+                font-weight: 300;
+                display: inline-block;
+                margin: 40px 20px;
+                text-decoration: none;
+                position: relative;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+        .textos{
+            width: 100%;
+            // position: absolute;
+            // top: 30%;
+            color: #fff;
+            margin-top: 60px;
+            .nombre{
+                font-size: 50px;
+                font-weight: 600;
+                span{
+                    font-weight: 300;
+                }
+            }
+            
+            h3{
+                font-weight: 300;
+                font-size: 25px;
+                font-style: italic;
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+.ubicacion{
+    background: #fff;
+    padding: 40px;
+    .titulo{
+        text-align: center;
+        font-size: 40px;
+        font-weight: 300;
+        margin-bottom: 40px;
+    }
+    .contenedor{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+
+        .direccion{
+            width: 30%;
+            margin-right: 50px;
+            text-align: left;
+            .calle{
+                margin-bottom: 15px;
+            }
+        }
+        .horarios{
+            width: 40%;
+            text-align: right;
+            h4{
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            .entre-semana{
+                width: 50%;
+                float: left;
+                text-align: center;
+            }
+            .fin-semana{
+                width: 50%;
+                float: left;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.mapa{
+    margin: 0 auto;
+    max-width: 1240px;
+    overflow: hidden;
+    iframe{
+        width: 100%;
+    }
+}
